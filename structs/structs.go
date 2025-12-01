@@ -6,12 +6,10 @@ import (
 	"example.com/structs/user"
 )
 
-func add[T int | float64 | string](a, b T) T {
-	return a + b
-}
+
 
 func main() {
-	add(1, 2)
+
 
 	fisrtName := getUserData("Enter your first name: ")
 	lastName := getUserData("Enter your last name: ")
