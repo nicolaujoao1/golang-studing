@@ -14,7 +14,7 @@ func main() {
 		"GitHub":        "https://www.github.com",
 		"StackOverflow": "https://stackoverflow.com",
 	}
-
+	delete(websites, "Google")
 	fmt.Println("----------------------------")
 	fmt.Println("Websites:")
 	for name, url := range websites {
